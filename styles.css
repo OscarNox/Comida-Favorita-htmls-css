@@ -6,12 +6,12 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4
+    background-image: url(fondo-transparente-borde-hoja-png_53876-1001713.avif)
     ;
 }
 
 header {
-    background-color: #7d947e;
+    background-color: #7ca17ee5;
     color: #ffffff;
     text-align: center; 
     padding: 20px;
@@ -26,6 +26,10 @@ h2 {
     text-align: justify
 }
 
+.principal p {
+    padding: 30px;
+}
+
 .texto, .imagen {
     display: inline-block;
     width: 40%;
@@ -33,22 +37,36 @@ h2 {
 }
 
 .imagen img {
-    width: 150%;
+    width: 140%;
     border-radius: 50px;
 }
 
 .info { 
-    background-color: white;
-    padding: 10%;
-    text-align: justify ;
+    background-color: rgba(255, 255, 255, 0.707);
+    padding: 5%;
+    text-align: justify;
+}
+
+.info h3 {
+    text-align: justify;
+    padding: 40px;
+}
+
+.info ul {
+    padding-bottom:40px;
+}           
+
+.info ol {
+    padding-bottom: 40px;
 }
 
 .imagen2 {
     text-align: center;
+    padding: 5px;
 }
 
 .imagen2 img { 
-    width: 30%;
+    width: 20%;
     border-radius: 50px;
 }
 
@@ -57,8 +75,23 @@ h4 {
     padding: 20px;
 }
 
+.relacionadas {
+    background-color: rgba(255, 255, 255, 0.707);
+    text-align: justify;
+}
+
 .relacionadas h3 {
     text-align: center;
+    padding-top: 50px;
+}
+
+.relacionadas h4 {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.relacionadas p{
+    padding: 30px;
 }
 
 footer {
